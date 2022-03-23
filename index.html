@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hash</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="download.icon" >
+</head>
+
+<body>
+    <div id="winbg">
+        <div class="winbox">
+            <h2 id="winplayer">O ogador 0 ganhou!</h2>
+            <button type="button" id="ok" onclick="closeBox()">
+                <p>OK</p>
+            </button>
+        </div>
+    </div>
+    
+    <div class="all">
+        <div id="gamebox">
+            <h1 id="title">Hash!</h1>
+            <div class="centerboxgame">
+                    <div class="a">
+                        <div id="a1" class="box" onclick="boxclick(0)"></div>
+                        <div id="a2" class="box" onclick="boxclick(3)"></div>
+                        <div id="a3" class="box" onclick="boxclick(6)"></div>
+                    </div>
+
+                    <div class="b">
+                        <div id="b1" class="box" onclick="boxclick(1)"></div>
+                        <div id="b2" class="box" onclick="boxclick(4)"></div>
+                        <div id="b3" class="box" onclick="boxclick(7)"></div>
+                    </div>
+
+                    <div class="c">
+                        <div id="c1" class="box" onclick="boxclick(2)"></div>
+                        <div id="c2" class="box" onclick="boxclick(5)"></div>
+                        <div id="c3" class="box" onclick="boxclick(8)"></div>
+                    </div>
+            </div>
+        </div>
+        <button type="button" id="resetbutton" onclick="resetgame()">
+            <p>Reset</p>
+        </button>
+    </div>
+</body>
+
+</html>
